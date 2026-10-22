@@ -10,9 +10,9 @@ WF-Mamba performs frequency-specialized restoration through two coupled branches
 - Direction-adaptive fusion. Input spectral context and low-frequency restoration context jointly predict per-image, per-direction fusion weights that combine the original wavelet high-frequency subbands with the Fourier candidates before inverse DWT reconstruction.
 ## Planned repository structure
 .
-├── configs/            # training and evaluation configurations
-├── models/             # UIEMamba, Fourier Refinement Block, FCF, WCM, fusion module
-├── data/               # dataset preparation scripts
-├── train.py
-├── test.py
+├── configs/            # training and evaluation configurations  
+├── models/             # UIEMamba, Fourier Refinement Block, FCF, WCM, fusion module  
+├── data/               # dataset preparation scripts  
+├── train.py  
+├── test.py  
 └── checkpoints/        # released weights
